@@ -96,5 +96,9 @@ width: 500px;
     h1{
         font-size: 30px;
     }
+    .box>input{
+
+        width: 320px;
+    }
 }
 
