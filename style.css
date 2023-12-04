@@ -85,4 +85,14 @@ width: 500px;
     align-items: center;
     
 }
+@media (max-width:600px) {
+    .card{
+        width: 300px;
+    }
+    .box{
+        width: 300px;
+
+    }
+    
+}
 
