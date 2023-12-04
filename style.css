@@ -1,0 +1,88 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Mooli&family=Nabla&family=Nanum+Gothic:wght@700&family=Pacifico&family=Rajdhani&family=Roboto+Condensed:ital@1&family=Signika+Negative:wght@500&family=Skranji:wght@400;700&family=Titillium+Web:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-25deg,#8600b3 50%,#cc33ff 50% );
+    
+}
+h1{
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    font-size: 60px;
+    color: white;
+    font-family: 'Nanum Gothic';
+    text-shadow: 2px 2px #000000;
+}
+.box{
+    align-items: center;
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.box>i{
+    font-size: 20px;
+    color: #777;
+}
+.box>input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.sbt{
+    border: none;
+    outline: none;
+    color: none;
+}
+.cbtn{
+    
+    border: none;
+    outline: none;
+    background-color: #cc33ff00;
+    justify-content: center;
+    align-items: center;
+}
+.span{
+    text-align: center;
+}
+.card{
+    position: absolute;
+    
+    bottom: 40px;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+backdrop-filter: blur(10px);
+border-radius: 20px;
+border: 1px solid rgba(255,255,255,0.18);
+box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+width: 500px;
+}
+
+.locbt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
