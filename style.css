@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     /* background: linear-gradient(-25deg,#635e64 50%,#1b161b 50% ); */
-    background-image: url(./w2.jpeg);
+    background-image: url(./images/w2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
