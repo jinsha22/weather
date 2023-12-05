@@ -13,15 +13,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(-25deg,#8600b3 50%,#cc33ff 50% );
-    
+    /* background: linear-gradient(-25deg,#635e64 50%,#1b161b 50% ); */
+    background-image: url(./w2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
     align-items: center;
     position: absolute;
     top: 30%;
     font-size: 60px;
-    color: white;
+    color:whitesmoke;
     font-family: 'Nanum Gothic';
     text-shadow: 2px 2px #000000;
 }
@@ -53,11 +55,23 @@ h1{
 }
 .cbtn{
     
-    border: none;
+    border: 2px black solid;
+    border-radius: 20px;
     outline: none;
-    background-color: #cc33ff00;
+    background-color: #4b3c5000;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
+}
+.cpn{
+    border: 2px black solid;
+    border-radius: 20px;
+    outline: none;
+    background-color: #4b3c5000;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
 }
 .span{
     text-align: center;
@@ -73,7 +87,15 @@ border: 1px solid rgba(255,255,255,0.18);
 box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
 width: 500px;
 }
-
+.button{
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+ 
+}
 .locbt{
     display: flex;
     justify-content: center;
